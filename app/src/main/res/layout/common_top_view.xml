@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_3sdp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="@dimen/_45sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_33sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/ic_back_arrow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            fontPath="fonts/OpenSans-Bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_13sdp"
+            android:layout_toEndOf="@+id/ivBack"
+            android:text="@string/pesanan_saya"
+            android:textColor="#000000"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="normal"
+            tools:ignore="MissingPrefix" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
